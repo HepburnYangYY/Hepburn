@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "DAL"]
+	url = https://github.com/HepburnYangYY/Hepburn
+	fetch = +refs/heads/*:refs/remotes/DAL/*
+[remote "origin"]
+	url = git@github.com:HepburnYangYY/Hepburn.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[gui]
+	wmstate = normal
+	geometry = 841x483+208+208 189 218
